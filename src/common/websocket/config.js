@@ -37,7 +37,7 @@ const isLocalHost = () =>
 
 const getAppId = () => {
     let app_id = null
-    const user_app_id = '' // you can insert Application ID of your registered application here
+    const user_app_id = '18664' // you can insert Application ID of your registered application here
     if (isBrowser()) {
         const config_app_id = window.localStorage.getItem('config.app_id')
         if (config_app_id) {
